@@ -1,17 +1,20 @@
-*{
+<style type="text/css">
+    *{
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
 }
 
 body {
     font-family: 'Raleway', sans-serif;
 }
 
-a{
+a {
     text-decoration: none;
+    text-align: center;
 }
 
-h1{
+h1 {
     font-size: 48px;
     margin-bottom: 20px;
 }
@@ -21,98 +24,170 @@ h2 {
     font-size: 18px;
 }
 
+section {
+    margin: 80px 0 0;
+}
 
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
 
-.banner{
-    background: url(../img/jana.jpg);
+.banner {
+    background: url(img/jana.jpg);
     background-size: cover;
-    height: 80vh;
+    height: 70vh;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
+    position: relative;
 }
 
-.subtitulo{
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.banner-title {
+    position: relative;
+    z-index: 1;
+}
+
+.banner .subtitulo {
     margin-bottom: 36px;
 }
 
-.botao{
+.banner .botao {
     background-color: rgb(255, 182, 231);
-    color: rgb(255, 255, 255);
-    padding: 15px;
+    color: rgb(134 59 94);
+    padding: 15px 25px;
     border-radius: 30px;
-    margin: 50px;
-
-
-  
 }
 
-.sobre {
-    margin: 20px;
+.sobre .titulo-sobre {
+    margin-bottom: 20px; 
 }
-.sobre-flex{
+
+.sobre .titulo-sobre .tt {
+   font-size: 30px;
+   color: #863b5e;
+}
+
+.sobre .box-sobre {
     display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    line-height: 1.5em;
-    margin-left: 50px;
+    justify-content: space-between;
 }
 
-.sobre-descricao {
-    width: 40%;
-    
+.sobre .box-sobre-desc {
+    width: 65%;
 }
 
-.sobre-descricao p{
-    margin-bottom: 10px ;
-    margin-top: 15px;
+.sobre .box-sobre-desc p {
+    line-height: 21px;
+    color: #864865;
 }
 
-.sobre-habilidades{
-    width: 30%;
-    color: rgb(143, 143, 143);
-}
-
-.titulo-sobre{
-    margin-bottom: 20px;
-    text-align:start;
-    color: #646363;
-
-}
-
-.botao-sobre{
+.sobre .box-sobre-desc .botao-sobre {
+    display: inline-flex;
     background-color: white;
-    border: rgb(255, 182, 231) solid 3px;
-    color:rgb(255, 182, 231);
-    padding: 15px;
-    border-radius: 30px;  
+    border: 2px solid #863b5e;
+    color:#863b5e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+}
+
+.sobre .box-sobre-desc .botao-sobre:hover {
+    background-color: rgb(255, 182, 231);
+    color: #863b5e;
+}
+
+.sobre .sobre-habilidades {
+    width: 300px;
+    color: rgb(143, 143, 143);
+    background-color: #ffb6d8;
+    padding: 25px 50 px;
+    border-radius: 10px;
+    position:relative;
+}
+
+.sobre .sobre-habilidades:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 278px;
+    height: 280px;
+    border: 2px solid #e490b7;
+    margin-bottom: 16px;
+}
+
+.sobre .sobre-habilidades .tt {
+    font-size: 20px;
+    color: #863b5e;
+    text-align: center;
+}
+
+.sobre .sobre-habilidades .lista {
+    list-style: none;
+    margin-left: 1px;
+    position: relative;
+}
+
+.sobre .sobre-habilidades .lista li {
+    padding: 10px 0;
+    color: #863b5e;
+}
+
+.sobre .sobre-habilidades .lista li:before {
+    content: '✓';
+    position: relative;
+    left: -10px;
 }
 
 .redes {
     display: flex;
-    justify-content: center;
-    margin-top: 62px;
-   
+    justify-content: space-between;
+    margin-bottom: 80px;  
 }
 
 .redes-links {
-    color:white;
+    color: #863b5e;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: #ffb6d8;
-    width: 16%;
+    width: 275px;
     height: 180px;
-    margin: 16px;
+    border-radius: 3px;
 }
 
 .redes-links__img {
     margin-bottom: 10px;
+    height: 45px;
+    margin-bottom: 20px;
 }
 
 .redes-links__titulo {
+    font-size: 20px;
     margin-bottom: 16px;
+    font-weight: bold;
+}
+
+.titulo-redes h1 {
+    color: #ffb6d8;
+    text-align: center;
+}
+
+</style>
 

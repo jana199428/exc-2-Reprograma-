@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">       
+    <title>Meu primeiro projeto</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner">
+        <div class="banner-title">
+            <h1 class="titulo">Oi, Eu sou a Janaína Bandeira</h1>
+            <p class="subtitulo"> Welcome to my world </p>
+            <a class="botao" target="blank"  href="https://www.linkedin.com/in/jana%C3%ADna-bandeira-ba1898113/">Conheça mais sobre mim</a>
+        </div>
+    </div>
+    <div class="container">
+        <section class="sobre">
+            
+            <div class="box-sobre">
+        	    <div class="box-sobre-desc">
+                    <div class="titulo-sobre">
+                        <h2 class="tt"> Um pouco mais sobre mim</h2>
+                    </div>
+                    <p>
+                        Adoro levar a vida com leveza, viajar, sair com meus amigos e ler pilhas de livros. Criatividade poderia ser meu sobrenome! E não é egocentrismo ou arrogância, não. Se tem uma coisa que eu odeio é quem faz as coisas quadradinhas, padronizadas ou seguindo modelos pré-estabelecidos. Adoro pensar fora da caixa. Sou eu mesma, sou honesta, sincera e autêntica.
+                    </p>
+
+                    <a class="botao-sobre" href="https://drive.google.com/file/d/1Wzuju4ma8d58zpCTUike1942Lwku5ho4/view?usp=sharing">Veja meu CV</a>
+        	    </div>
+
+                <div class="sobre-habilidades">
+                    <h3 class="tt">Habilidades</h3>
+                    <ul class="lista">
+                        <li>Inovadora</li>
+                        <li>Determinada</li>
+                        <li>Independente</li>
+                        <li>Empreendedora</li>
+                        <li>Negociadora Nata </li>
+                        <li>Adora desafios</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="redes">
+            <a class="redes-links" target="blank"  href="https://www.facebook.com/janabandeira/">
+                <img  class="redes-links__img" src="./img/facebook.png" alt="ícone do Facebook" />
+                <p class="redes-links__titulo">Facebook</p>
+                <p class="redes-links__subtitulo">/janainabandeira</p>
+            </a>    
+
+            <a class="redes-links" target="blank"  href="https://www.linkedin.com/notifications/">
+                <img class="redes-links__img" src="./img/in.png" alt="ícone do Facebook" />
+                <p class="redes-links__titulo">Linkedin</p>
+                <p class="redes-links__subtitulo">/janainabandeira</p>
+            </a>  
+            <a class="redes-links" target="blank"  href="https://github.com/jana199428">
+                <img class="redes-links__img" src="./img/github.png" alt="ícone do Facebook" />
+                <p class="redes-links__titulo">Github</p>
+                <p class="redes-links__subtitulo">/janainabandeira</p>
+            </a>  
+            <a class="redes-links" target="blank"  href="https://www.instagram.com/janainabc_/">
+                <img class="redes-links__img" src="./img/insta.jpg" alt="ícone do Instagran" />
+                <p class="redes-links__titulo">Instagram</p>
+                <p class="redes-links__subtitulo">/janainabandeira</p>
+            </a>  
+        </section>
+    </div>
+</body>
+
+<style type="text/css">
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+section {
+    margin: 80px 0 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.banner {
+    background: url(img/jana.jpg);
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.banner:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.25);
+}
+
+.banner-title {
+    position: relative;
+    z-index: 1;
+}
+
+.banner .subtitulo {
+    margin-bottom: 36px;
+}
+
+.banner .botao {
+    background-color: rgb(255, 182, 231);
+    color: rgb(134 59 94);
+    padding: 15px 25px;
+    border-radius: 30px;
+}
+
+.sobre .titulo-sobre {
+    margin-bottom: 20px; 
+}
+
+.sobre .titulo-sobre .tt {
+   font-size: 42px;
+   color: #863b5e;
+}
+
+.sobre .box-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sobre .box-sobre-desc {
+    width: 65%;
+}
+
+.sobre .box-sobre-desc p {
+    line-height: 21px;
+    color: #864865;
+}
+
+.sobre .box-sobre-desc .botao-sobre {
+    display: inline-flex;
+    background-color: white;
+    border: 2px solid #863b5e;
+    color:#863b5e;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-top: 25px;
+    font-weight: 400;
+    transition: .2s ease-in-out;
+}
+
+.sobre .box-sobre-desc .botao-sobre:hover {
+    background-color: rgb(255, 182, 231);
+    color: #863b5e;
+}
+
+.sobre .sobre-habilidades {
+    width: 300px;
+    color: rgb(143, 143, 143);
+    background-color: #ffb6d8;
+    padding: 25px 30px;
+    border-radius: 3px;
+    position: relative;
+}
+
+.sobre .sobre-habilidades:before {
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 278px;
+    height: 318px;
+    border: 1px solid #e490b7;
+}
+
+.sobre .sobre-habilidades .tt {
+    font-size: 24px;
+    color: #863b5e;
+    margin-bottom: 15px;
+}
+
+.sobre .sobre-habilidades .lista {
+    list-style: none;
+    margin-left: 15px;
+    position: relative;
+}
+
+.sobre .sobre-habilidades .lista li {
+    padding: 10px 0;
+    color: #863b5e;
+}
+
+.sobre .sobre-habilidades .lista li:before {
+    content: '✓';
+    position: relative;
+    left: -15px;
+}
+
+.redes {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;  
+}
+
+.redes-links {
+    color: #863b5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffb6d8;
+    width: 275px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.redes-links__img {
+    margin-bottom: 10px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.redes-links__titulo {
+    font-size: 20px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+</style>
+
+</html>
