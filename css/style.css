@@ -114,10 +114,11 @@ section {
 .sobre .sobre-habilidades {
     width: 300px;
     color: rgb(143, 143, 143);
-    background-color: #ffb6d8;
-    padding: 25px 50 px;
-    border-radius: 10px;
+    padding: 25px 25px;
+    border-radius: 5px;
     position:relative;
+    background-color: #ffb6d8;
+    height:auto;
 }
 
 .sobre .sobre-habilidades:before {
@@ -126,14 +127,13 @@ section {
     top: 10px;
     left: 10px;
     width: 278px;
-    height: 280px;
-    border: 2px solid #e490b7;
+    height: 280px; 
     margin-bottom: 16px;
 }
 
 .sobre .sobre-habilidades .tt {
     font-size: 20px;
-    color: #863b5e;
+    color: white;
     text-align: center;
 }
 
@@ -143,17 +143,16 @@ section {
     position: relative;
 }
 
-.sobre .sobre-habilidades .lista li {
-    padding: 10px 0;
-    color: #863b5e;
-}
-
 .sobre .sobre-habilidades .lista li:before {
-    content: '✓';
+    content: 
     position: relative;
     left: -10px;
 }
 
+.sobre .sobre-habilidades .lista li {
+    padding: 7px 0;
+    color: #863b5e;
+}
 .redes {
     display: flex;
     justify-content: space-between;
@@ -188,6 +187,7 @@ section {
     color: #ffb6d8;
     text-align: center;
 }
+
 
 </style>
 

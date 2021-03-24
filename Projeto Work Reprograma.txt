@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">       
-    <title>Meu primeiro projeto</title>
+    <title>Janaína Bandeira </title>
 
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;600&display=swap" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
@@ -12,9 +12,10 @@
         <div class="banner-title">
             <h1 class="titulo">Oi, Eu sou a Janaína Bandeira</h1>
             <p class="subtitulo"> Welcome to my world </p>
-            <a class="botao" target="blank"  href="https://www.linkedin.com/in/jana%C3%ADna-bandeira-ba1898113/">Conheça mais sobre mim</a>
+            <a class="botao" target="blank"  href="https://www.instagram.com/janainabc_/">Me segue lá no insta </a>
         </div>
     </div>
+
     <div class="container">
         <section class="sobre">
             
@@ -22,28 +23,88 @@
         	    <div class="box-sobre-desc">
                     <div class="titulo-sobre">
                         <h2 class="tt"> Um pouco mais sobre mim</h2>
-                    </div>
                     <p>
                         Adoro levar a vida com leveza, viajar, sair com meus amigos e ler pilhas de livros. Criatividade poderia ser meu sobrenome! E não é egocentrismo ou arrogância, não. Se tem uma coisa que eu odeio é quem faz as coisas quadradinhas, padronizadas ou seguindo modelos pré-estabelecidos. Adoro pensar fora da caixa. Sou eu mesma, sou honesta, sincera e autêntica.
                     </p>
+                        <h2 class="tt"> Coisas que amo fazer</h2> 
+                    <p>
+                        fazer texto sore 
+                    </p>
+                        <h2 class="tt"> Minha tragetória como Empreendedora </h2> 
+                    <p>
+                        fazer texto sobre ...
+                    </p>
+                        <h3> <a href= "https://www.instagram.com/lotus_cestaseflores/"target="_blank">@lotus_cestaseflores</a> </h3>
+                        
+                    <p>
+                        Falar sobre a lótus ...s
+                    </p>
 
-                    <a class="botao-sobre" href="https://drive.google.com/file/d/1Wzuju4ma8d58zpCTUike1942Lwku5ho4/view?usp=sharing">Veja meu CV</a>
+                        <h3> <a href= "https://www.instagram.com/chicecheapacessorios/"target="_blank">@chic&cheapacessorios</a> </h3>
+                    <p>
+                        Falar sobre a Chic ...
+                    </p>
+
+                    </div>
+
+                    <a class="botao-sobre" href="https://drive.google.com/file/d/1E4WUEFyj1LdIj3uDpfeSKjO0fxlf_V7F/view?usp=sharing" target="_blank">Veja meu CV</a>
         	    </div>
 
                 <div class="sobre-habilidades">
-                    <h3 class="tt">Habilidades</h3>
+                    <h3 class="tt">Minha Play List </h3>
                     <ul class="lista">
-                        <li>Inovadora</li>
-                        <li>Determinada</li>
-                        <li>Independente</li>
-                        <li>Empreendedora</li>
-                        <li>Negociadora Nata </li>
-                        <li>Adora desafios</li>
+                        <li>
+                        <a href= "https://www.youtube.com/watch?v=7wtfhZwyrcc"target="_blank">Belive - Imagine Dragons</a>
+                        </li>
+                        <li>
+                        <a href= "https://www.youtube.com/watch?v=Nl-miBptX_Q"target="_blank">Manhã de Sol - Bhaskhar</a>
+                        </li>
+                        <li>
+                        <a href= "https://www.youtube.com/results?search_query=vou+deixar+skank+letra"target="_blank">Vou deixar - Skank</a>
+                         </li>
+                        <li>
+                        <a href= "https://www.youtube.com/results?search_query=pontes+indestrutiveis"target="_blank">Pontes Indestrutivéis  - CBJR </a>
+                        </li>
+                        <li>
+                        <a href= "https://www.youtube.com/watch?v=2LBBaD1aQuw&list=RDMM&index=7"target="_blank">Coldplay - Something Just Like This </a>
+                        </li>
+                    </ul>
+
+                <div class="sobre-habilidades">
+                    <h3 class="tt">Meus Livros Favoritos </h3>
+                    <ul class="lista">
+                        <li>
+                        <a href= "https://lelivros.love/book/baixar-livro-guga-um-brasileiro-gustavo-kuerten-em-epub-mobi-e-pdf/"target="_blank">GUGA Um brasilheiro</a>
+                        </li>
+                        <li>
+                        <a href= "https://lelivros.love/book/baixar-livro-a-grande-jogada-molly-bloom-em-epub-mobi-e-pdf-ou-ler-online/"target="_blank">MOLLY BLOOM- A grande jogada</a>
+                        </li>
+                        <li>
+                        <a href= "https://www.amazon.com.br/Esteja-viva-permane%C3%A7a-100-Presente-ebook/dp/B07WW2FG4L"target="_blank">100% Presente- Joel Morais </a>
+                         </li>
+                        <li>
+                        <a href= "https://www.youtube.com/results?search_query=pontes+indestrutiveis"target="_blank">Berdaninho- Transformando suor em ouro   - CBJR </a>
+                        </li>
+                        <li>
+                        <a href= "https://www.amazon.com.br/Mais-esperto-que-Diabo-liberdade/dp/8568014933/ref=pd_lpo_14_t_0/132-6436066-4871822?_encoding=UTF8&pd_rd_i=8568014933&pd_rd_r=d5506de0-3cd4-4d84-8791-4458d441dc48&pd_rd_w=hpMsb&pd_rd_wg=nKUuQ&pf_rd_p=db376f82-c0ea-4aab-a0d6-5e957a2950ee&pf_rd_r=7FEQ6RQW63VRCESXFZCV&psc=1&refRID=7FEQ6RQW63VRCESXFZCV"target="_blank">Mais esperto que o diabo </a>
+                        </li>
                     </ul>
                 </div>
+                 
             </div>
         </section>
+
+    <div>
+        <section class="titulo-redes">
+            <h1> Minhas Redes Sociais</h1>
+
+        </section>
+    </div>
+        
+    
+        
         <section class="redes">
+        
             <a class="redes-links" target="blank"  href="https://www.facebook.com/janabandeira/">
                 <img  class="redes-links__img" src="./img/facebook.png" alt="ícone do Facebook" />
                 <p class="redes-links__titulo">Facebook</p>
@@ -60,14 +121,24 @@
                 <p class="redes-links__titulo">Github</p>
                 <p class="redes-links__subtitulo">/janainabandeira</p>
             </a>  
-            <a class="redes-links" target="blank"  href="https://www.instagram.com/janainabc_/">
-                <img class="redes-links__img" src="./img/insta.jpg" alt="ícone do Instagran" />
-                <p class="redes-links__titulo">Instagram</p>
+            <a class="redes-links" target="blank"  href="https://www.whatsapp.com/catalog/558388841860/?app_absent=0/">
+                <img class="redes-links__img" src="./img/insta.jpg" alt="ícone do Whatssap" />
+                <p class="redes-links__titulo">Whatssap </p>
                 <p class="redes-links__subtitulo">/janainabandeira</p>
             </a>  
         </section>
     </div>
 </body>
+    
+
+    
+
+
+
+
+
+css
+
 
 <style type="text/css">
     *{
@@ -82,6 +153,7 @@ body {
 
 a {
     text-decoration: none;
+    text-align: center;
 }
 
 h1 {
@@ -146,7 +218,7 @@ section {
 }
 
 .sobre .titulo-sobre .tt {
-   font-size: 42px;
+   font-size: 30px;
    color: #863b5e;
 }
 
@@ -185,9 +257,9 @@ section {
     width: 300px;
     color: rgb(143, 143, 143);
     background-color: #ffb6d8;
-    padding: 25px 30px;
-    border-radius: 3px;
-    position: relative;
+    padding: 25px 50 px;
+    border-radius: 10px;
+    position:relative;
 }
 
 .sobre .sobre-habilidades:before {
@@ -196,19 +268,20 @@ section {
     top: 10px;
     left: 10px;
     width: 278px;
-    height: 318px;
-    border: 1px solid #e490b7;
+    height: 280px;
+    border: 2px solid #e490b7;
+    margin-bottom: 16px;
 }
 
 .sobre .sobre-habilidades .tt {
-    font-size: 24px;
+    font-size: 20px;
     color: #863b5e;
-    margin-bottom: 15px;
+    text-align: center;
 }
 
 .sobre .sobre-habilidades .lista {
     list-style: none;
-    margin-left: 15px;
+    margin-left: 1px;
     position: relative;
 }
 
@@ -220,7 +293,7 @@ section {
 .sobre .sobre-habilidades .lista li:before {
     content: '✓';
     position: relative;
-    left: -15px;
+    left: -10px;
 }
 
 .redes {
@@ -253,6 +326,10 @@ section {
     font-weight: bold;
 }
 
+.titulo-redes h1 {
+    color: #ffb6d8;
+    text-align: center;
+}
+
 </style>
 
-</html>
